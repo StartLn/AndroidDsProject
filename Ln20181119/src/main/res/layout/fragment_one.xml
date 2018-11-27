@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.OneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.recker.flybanner.FlyBanner
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/Fly_Banner">
+
+        </com.recker.flybanner.FlyBanner>
+        <com.example.pulltolibrary.PullToRefreshListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pull"
+            android:layout_below="@id/Fly_Banner">
+
+        </com.example.pulltolibrary.PullToRefreshListView>
+    </RelativeLayout>
+
+</FrameLayout>
